@@ -161,6 +161,21 @@ body{
     gap: 20px;
 }
 
+@media screen and (max-width: 768px){
+
+    .projects-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .project1, .project1b, .project2, .project2b, .project3, .project4, .project3b, .project4b{
+        height: 500px;
+        width: 460px;
+    } 
+}
+
 .project1, .project1b, .project2{
     height: 300px;
     width: 260px;
