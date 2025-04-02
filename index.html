@@ -14,16 +14,19 @@
             <img class="pozadina" src="slike/roze-pozadina.png">
         </div>
 
+        <div id="go-up"></div>
+        <div id="goName"></div>
+
         <div class="div1 animate__animated" id="go-up">
-            <p class="katarina animate__animated animate__fadeInLeft">Katarina Lazić</p>
+            <a href="#goName" class="no-style"><p class="katarina animate__animated animate__fadeInLeft" id="scrollToName">Katarina Lazić</p></a>
             <div class="nav-links">
-                <button class="about animate__animated animate__fadeInLeft">About</button>
+                <a href="#about"><button class="about animate__animated animate__fadeInLeft">About</button></a>
                 <a href="#projects"><button class="projects animate__animated animate__fadeInLeft">Projects</button></a>
                 <a href="#skills"><button class="skills animate__animated animate__fadeInLeft">Skills</button></a>
             </div>
         </div>
 
-        <div class="div2 animate__animated animate__fadeInLeft">
+        <div class="div2 animate__animated animate__fadeInLeft" id="about">
             <div class="pozicija-slike">
                 <img class="slika-ja animate__animated" src="slike/slika-ja.png">
             </div>
@@ -101,6 +104,11 @@
         <div class="div6">
             <p class="rights-reserved">	&#169; 2025 Katarina Lazić. All rights reserved.</p>
         </div>
+
+        <script src="scripts.js">
+           scroll("scrollToTop");
+           scroll("scrollToName");
+        </script>
 
     </body>
 </html>
