@@ -533,4 +533,10 @@ body{
                     color 0.8s ease;
     }
    
+    .pozicija-opisa{
+        display: flex;
+        align-items: center;
+        width: 700px;
+        margin: 5px;
+    }
 }
