@@ -187,13 +187,13 @@ body{
     0px 0px 15px rgba(255, 255, 255, 0.8);  /* Bijela sjajna sijenka */
 }
 
-.bingelog, .wallify{
+.bingelog, .wallify, .productivity-app{
     height: 120px;
     margin-top: 20px;
     border-radius: 10px;
 }
 
-.bingelog-title, .wallify-title{
+.bingelog-title, .wallify-title, .productivity-app-title{
     font-weight: bold;
     font-family: Pacifico;
     font-size: 22px;
@@ -201,7 +201,7 @@ body{
     margin-bottom: 1px;
 }
 
-.languages-p1, .about-p1, .languages-p2, .about-p2{
+.languages-p1, .about-p1, .languages-p2, .about-p2, .languages-p3, .about-p3{
     font-size: 13px;
     font-family: Pacifico;
     margin-top: 1px;
